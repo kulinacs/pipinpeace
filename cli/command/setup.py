@@ -7,6 +7,7 @@ from command import install
 setup(
     name='pipinpeace-command',
     packages=['command'],
+    # Magic Install override
     cmdclass={
         'install': install,
     },
